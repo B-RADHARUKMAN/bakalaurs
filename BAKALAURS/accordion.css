@@ -37,6 +37,9 @@
     color: #333;
       
   }
+  textarea{
+    resize: none;
+  }
   
   .alert h2 {
  
