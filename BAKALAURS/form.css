@@ -137,32 +137,32 @@ input[type=radio]:checked ~ label{
 
 
 .alert {
-	box-sizing: border-box;
+	
 
 	background-color: #BDFFE1;
-	width: 95%;
-	position: relative; 
-  
+	
+	/* position: relative;  */
+/*   
     align-items: center;
-    justify-content: center;
-	top: 30px;
-	left: 30px;
-	z-index: 300;
-	padding: 20px 40px;
+    justify-content: center; */
+	/* top: 30px; */
+	/* left: 30px; */
+
+	/* padding: 20px 40px; */
 	color: #333;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .alert h2 {
-	font-size: 40px;
+	/* font-size: 40px; */
 	color: #232323;
-	margin-top: 0;
+	
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 
 .alert p {
 	line-height: 1.6em;
-	font-size:18px;
+	/* font-size:18px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
