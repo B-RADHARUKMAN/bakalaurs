@@ -117,6 +117,29 @@
         </script>
     </amp-analytics>
     <!-- /Google Analytics -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDhTKIlXR51eVfjTp6Ipe2MWrpXGtNrulY",
+          authDomain: "bakalakurs.firebaseapp.com",
+          projectId: "bakalakurs",
+          storageBucket: "bakalakurs.appspot.com",
+          messagingSenderId: "380725530254",
+          appId: "1:380725530254:web:c636d9817412c755ef03df",
+          measurementId: "G-475JNNNQMW"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 
 
     <section class="menu horizontal-menu cid-qOlhNl2GjD" id="menu1-gb">
@@ -144,7 +167,7 @@
                 
                 
 
-                <div class="navbar-buttons mbr-section-btn" ><a class="btn btn-sm btn-primary display-4" href="http://mobirise.com/" >
+                <div class="navbar-buttons mbr-section-btn" ><a class="btn btn-sm btn-primary display-4" href="prof.html" >
                   join as professional</a></div>
             </div>
 
